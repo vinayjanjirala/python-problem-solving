@@ -125,24 +125,18 @@ the month number (1 for January, 2 for February, etc.).
 '''
 
 
-# num1 = float(input("Enter a number for num1 : "))
-# num2 = float(input("Enter a number for num2 : "))
-# num3 = float(input("Enter a number for num3 : "))
+num1 = float(input("Enter a number for num1 : "))
+num2 = float(input("Enter a number for num2 : "))
+num3 = float(input("Enter a number for num3 : "))
 
-# if num1>num2 and num1>num3:
-#     print("num1 is greatest")
-# elif num2>num1 and num2>num3:
-#     print("num2 is greatest")
-# elif num3>num1 and num3>num2:
-#     print("num3 is greatest")
-# elif num1==num2 and num1>num3:
-#     print("num1 and num2 are equal so",num1," is greatest")
-# elif num3==num2 and num2>num1:
-#     print("num1 and num2 are equal so",num2," is greatest")
-# elif num3==num1 and num1>num2:
-#     print("num1 and num2 are equal so",num3," is greatest")
-# else:
-#     print("all numbers are equal so nothing is greater")
+if num1>=num2 and num1>num3:
+    print(num1, "is greatest")
+elif num2>=num3 and num2>num1:
+    print(num2 ,"is greatest")
+elif num3>=num1 and num3>num2:
+    print(num3, "is greatest")
+else:
+    print("all numbers are equal so nothing is greater")
 
 
 '''Check if a year is a leap year.'''

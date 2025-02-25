@@ -32,8 +32,8 @@ number. First 20'''
 # num = int(input("Enter a number : "))
 # count = 0 
 # while count<11:
-#     table = num * count
 #     count=count+1
+#     table = num * count
 #     print(f"{num} * {count} = {table}")
 
     
